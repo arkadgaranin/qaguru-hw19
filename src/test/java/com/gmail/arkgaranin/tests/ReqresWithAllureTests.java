@@ -36,7 +36,7 @@ public class ReqresWithAllureTests extends TestBase {
         .log().status()
         .log().body()
         .statusCode(200)
-        .body("id", is(4), "token", is("QpwL5tke4Pnpja7X4"));
+        .body("id", is(1), "token", is("QpwL5tke4Pnpja7X4"));
   }
 
   @Test
